@@ -1,4 +1,4 @@
-# SIGN2SOUND: Lightweight Indian Sign Language Recognition through Transfer Learning
+# SignVox: Lightweight Indian Sign Language Recognition through Transfer Learning
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Phase](https://img.shields.io/badge/Phase-1%20Backbone-blue)
