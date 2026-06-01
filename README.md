@@ -156,6 +156,16 @@ This significantly reduces training requirements while improving convergence and
 | Macro Recall | 96.06% |
 | Macro F1 Score | 95.89% |
 
+
+Training Sample:
+
+<img width="1152" height="648" alt="training_sample_1" src="https://github.com/user-attachments/assets/8a1a2521-814c-4e82-bfe9-ade6771d079c" />
+
+Inference Sample (recorded by a teammate): 
+
+<img width="1152" height="648" alt="inference_sample_1" src="https://github.com/user-attachments/assets/ce3186e5-2667-4b4e-91af-20859dba4410" />
+
+
 ---
 
 ## Key Engineering Challenge
