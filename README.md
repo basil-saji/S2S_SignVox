@@ -3,8 +3,8 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Phase](https://img.shields.io/badge/Phase-1%20Backbone-blue)
 ![Dataset](https://img.shields.io/badge/Dataset-AI4Bharath_INCLUDE-orange)
-![Framework](https://img.shields.io/badge/TensorFlow-2.x-FF6F00)
-![Language](https://img.shields.io/badge/Python-3.10.x-blue)
+![Framework](https://img.shields.io/badge/TensorFlow-2.11.0-FF6F00)
+![Language](https://img.shields.io/badge/Python-3.10.10-blue)
 
 ---
 
