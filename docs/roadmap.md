@@ -20,16 +20,7 @@ Goals:
 - Live prediction
 - Confidence estimation
 - Performance optimization
-
-Expected Output:
-
-Video Stream
-↓
-Landmark Extraction
-↓
-Model Inference
-↓
-Predicted Sign
+- 
 
 ---
 
