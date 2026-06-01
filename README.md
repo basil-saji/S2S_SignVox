@@ -202,7 +202,7 @@ S2S_SignVox/
 │   ├── accuracy_curve.png
 │   ├── loss_curve.png
 │   ├── f1_distribution.png
-│   └── classification_report.txt
+│   └── classification_report.md
 │
 ├── docs/
 │   ├── architecture.md
@@ -218,6 +218,7 @@ S2S_SignVox/
 │   └── inferene_sample_2.gif
 │
 ├── data/
+│   ├── id_to_word.json
 │   └── README.md
 │
 ├── models/
@@ -285,14 +286,16 @@ The notebook contains:
 ### Team SignVox
 
 - Basil Saji
-- Contributors to be added
+- Albert M Paul
+- Anugraha Siju
+- Abhinav Raj
 
 ---
 
 ## Acknowledgements
 
 This work builds upon:
-
+- [hoyso48](https://www.kaggle.com/hoyso48)
 - AI4Bharat INCLUDE Dataset
 - MediaPipe Holistic
 - TensorFlow
@@ -330,4 +333,4 @@ Our goal is to contribute toward more accessible and inclusive communication tec
 
 ---
 
-**SignVox — Empowering Communication Through AI and Indian Sign Language.** 🚀
+**SignVox — Empowering Communication Through AI and ISL.** 
