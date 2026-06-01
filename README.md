@@ -175,17 +175,16 @@ This investigation highlighted the importance of preserving geometric consistenc
 ## Repository Structure
 
 ```text
-SignVox/
+S2S_SignVox/
 │
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 │
 ├── notebooks/
-│   └── SignVox_phase1_backbone.ipynb
+│   └── SignVox_ISL.ipynb
 │
 ├── reports/
-│   ├── Phase1_Backbone_Report.pdf
 │   ├── confusion_matrix.png
 │   ├── accuracy_curve.png
 │   ├── loss_curve.png
@@ -199,8 +198,10 @@ SignVox/
 │
 ├── assets/
 │   ├── architecture.png
-│   ├── demo.gif
-│   └── SignVox_logo.png
+│   ├── training_sameple_1.gif
+│   ├── inference_sameple_1.gif
+│   ├── training_sameple_2.gif
+│   └── inferene_sameple_2.gif
 │
 ├── data/
 │   └── README.md
