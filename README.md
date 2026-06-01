@@ -192,6 +192,7 @@ S2S_SignVox/
 │   └── classification_report.txt
 │
 ├── docs/
+│   ├── architecture.md
 │   ├── dataset.md
 │   ├── training.md
 │   └── roadmap.md
