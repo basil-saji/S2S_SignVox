@@ -2,15 +2,15 @@
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Phase](https://img.shields.io/badge/Phase-1%20Backbone-blue)
-![Dataset](https://img.shields.io/badge/Dataset-INCLUDE-orange)
+![Dataset](https://img.shields.io/badge/Dataset-AI4Bharath-INCLUDE-orange)
 ![Framework](https://img.shields.io/badge/TensorFlow-2.x-FF6F00)
-![Language](https://img.shields.io/badge/Python-3.x-blue)
+![Language](https://img.shields.io/badge/Python-3.10.x-blue)
 
 ---
 
 ## Overview
 
-SIGN2SOUND is an ongoing research and development project focused on building an accessible, lightweight, and real-time Indian Sign Language (ISL) recognition system.
+SignVox is an ongoing research and development project focused on building an accessible, lightweight, and real-time Indian Sign Language (ISL) recognition system.
 
 The long-term goal is to develop a Sign-to-Speech communication platform capable of understanding Indian Sign Language and converting it into natural language and speech output.
 
@@ -24,7 +24,7 @@ Communication barriers remain a major challenge for members of the Deaf and Hard
 
 While substantial research exists for American Sign Language (ASL), comparatively fewer open-source solutions are available for Indian Sign Language (ISL).
 
-SIGN2SOUND aims to bridge this gap by:
+SignVox aims to bridge this gap by:
 
 - Leveraging modern deep learning techniques
 - Building on proven sign-language recognition architectures
@@ -35,26 +35,26 @@ SIGN2SOUND aims to bridge this gap by:
 
 ## Project Roadmap
 
-### Phase 1 — ISL Recognition Backbone ✅
+### Phase 1 — ISL Recognition Backbone 
 
 - Landmark-based sign recognition
 - Transfer learning from a state-of-the-art sign language recognition backbone
 - Fine-tuning on the INCLUDE dataset
 - Evaluation and benchmarking
 
-### Phase 2 — Real-Time Inference 🚧
+### Phase 2 — Real-Time Inference 
 
 - Webcam-based recognition
 - Live prediction pipeline
 - Confidence estimation
 - Performance optimization
 
-### Phase 3 — Intent Recognition 🔬
+### Phase 3 — Intent Recognition 
 
 - Recognition of conversational intents
 - Domain-specific communication assistance
 
-### Phase 4 — Sign-to-Speech 🎯
+### Phase 4 — Sign-to-Speech 
 
 - Natural language generation
 - Speech synthesis
@@ -118,7 +118,7 @@ Classification Head
 
 ## Transfer Learning Strategy
 
-Rather than training from scratch, SIGN2SOUND leverages knowledge from a high-performing sign-language recognition backbone and adapts it to Indian Sign Language.
+Rather than training from scratch, SignVox leverages knowledge from a high-performing sign-language recognition backbone and adapts it to Indian Sign Language.
 
 ```text
 Pretrained Sign Language Backbone
@@ -165,14 +165,14 @@ This investigation highlighted the importance of preserving geometric consistenc
 ## Repository Structure
 
 ```text
-SIGN2SOUND/
+SignVox/
 │
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 │
 ├── notebooks/
-│   └── sign2sound_phase1_backbone.ipynb
+│   └── SignVox_phase1_backbone.ipynb
 │
 ├── reports/
 │   ├── Phase1_Backbone_Report.pdf
@@ -190,7 +190,7 @@ SIGN2SOUND/
 ├── assets/
 │   ├── architecture.png
 │   ├── demo.gif
-│   └── sign2sound_logo.png
+│   └── SignVox_logo.png
 │
 ├── data/
 │   └── README.md
@@ -226,7 +226,7 @@ pip install -r requirements.txt
 3. Open:
 
 ```text
-notebooks/sign2sound_phase1_backbone.ipynb
+notebooks/SignVox_phase1_backbone.ipynb
 ```
 
 4. Execute the notebook sequentially.
@@ -256,7 +256,7 @@ The notebook contains:
 
 ## Contributors
 
-### Team SIGN2SOUND
+### Team SignVox
 
 - Basil Saji
 - Contributors to be added
@@ -287,13 +287,13 @@ See the `LICENSE` file for details.
 
 ## Citation
 
-If you use this work in research, educational projects, or derivative systems, please cite this repository and acknowledge the SIGN2SOUND project.
+If you use this work in research, educational projects, or derivative systems, please cite this repository and acknowledge the SignVox project.
 
 ---
 
 ## Vision
 
-SIGN2SOUND aims to evolve beyond isolated sign recognition into a complete assistive communication platform capable of:
+SignVox aims to evolve beyond isolated sign recognition into a complete assistive communication platform capable of:
 
 - Understanding Indian Sign Language
 - Recognizing conversational intent
@@ -304,4 +304,4 @@ Our goal is to contribute toward more accessible and inclusive communication tec
 
 ---
 
-**SIGN2SOUND — Empowering Communication Through AI and Indian Sign Language.** 🚀
+**SignVox — Empowering Communication Through AI and Indian Sign Language.** 🚀
