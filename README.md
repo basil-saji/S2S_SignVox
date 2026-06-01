@@ -1,8 +1,9 @@
 # SignVox: Lightweight Indian Sign Language Recognition through Transfer Learning
 
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Phase](https://img.shields.io/badge/Phase-1%20Backbone-blue)
 ![Dataset](https://img.shields.io/badge/Dataset-AI4Bharath_INCLUDE-orange)
+![Classes](https://img.shields.io/badge/Classes-263-success)
+![Parameters](https://img.shields.io/badge/Parameters-1.84M-blueviolet)
+![Accuracy](https://img.shields.io/badge/Accuracy-95.80%25-brightgreen)
 ![Framework](https://img.shields.io/badge/TensorFlow-2.11.0-FF6F00)
 ![Language](https://img.shields.io/badge/Python-3.10.10-blue)
 
@@ -157,13 +158,15 @@ This significantly reduces training requirements while improving convergence and
 | Macro F1 Score | 95.89% |
 
 
-Training Sample:
+Training Sample (from the dataset) :
 
-<img width="1152" height="648" alt="training_sample_1" src="https://github.com/user-attachments/assets/8a1a2521-814c-4e82-bfe9-ade6771d079c" />
+<img width="1152" height="648" alt="training_sample_1" src="https://github.com/user-attachments/assets/575d9f7b-ac3a-43a1-bc12-5fc73be043ac" />
+
 
 Inference Sample (recorded by a teammate): 
 
-<img width="1152" height="648" alt="inference_sample_1" src="https://github.com/user-attachments/assets/ce3186e5-2667-4b4e-91af-20859dba4410" />
+<img width="1152" height="648" alt="inference_sample_1" src="https://github.com/user-attachments/assets/cfe66925-f21d-4a3a-a394-83c9d4264df8" />
+
 
 
 ---
