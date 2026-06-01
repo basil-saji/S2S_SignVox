@@ -198,10 +198,10 @@ S2S_SignVox/
 │
 ├── assets/
 │   ├── architecture.png
-│   ├── training_sameple_1.gif
-│   ├── inference_sameple_1.gif
-│   ├── training_sameple_2.gif
-│   └── inferene_sameple_2.gif
+│   ├── training_sample_1.gif
+│   ├── inference_sample_1.gif
+│   ├── training_sample_2.gif
+│   └── inferene_sample_2.gif
 │
 ├── data/
 │   └── README.md
