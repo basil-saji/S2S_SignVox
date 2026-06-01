@@ -1,26 +1,14 @@
-python==3.10.10
-
-# Core ML Framework
 tensorflow==2.11.0
 keras==2.11.0
 
-# Data Processing
 numpy==1.23.5
 pandas==1.5.3
 pyarrow==10.0.1
 
-# Machine Learning
 scikit-learn==1.2.2
 
-# Visualization
 matplotlib==3.6.3
 seaborn==0.12.2
 
-# Notebook Environment
-jupyter==1.0.0
-ipykernel==6.22.0
-
-# Utilities
 tqdm==4.64.1
 h5py==3.8.0
-protobuf==3.20.3
