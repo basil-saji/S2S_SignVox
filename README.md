@@ -207,8 +207,9 @@ S2S_SignVox/
 ├── data/
 │   └── README.md
 │
-└── models/
-    └── README.md
+├── models/
+│   ├── signvox_isl_model.h5
+│   └── README.md
 ```
 
 ---
