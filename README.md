@@ -194,6 +194,13 @@ S2S_SignVox/
 ├── LICENSE
 ├── requirements.txt
 │
+├── src/
+│   ├── README.md
+│   ├── config.py
+│   ├── data_loader.py
+│   ├── model.py
+│   └── train.py
+│
 ├── notebooks/
 │   └── SignVox_ISL.ipynb
 │
@@ -230,35 +237,56 @@ S2S_SignVox/
 
 ## Installation
 
-Clone the repository:
+Clone the repository and navigate into the project directory:
 
 ```bash
 git clone git@github.com:basil-saji/S2S_SignVox.git
-
 cd S2S_SignVox
 ```
 
-Install dependencies:
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
 ## Reproducing Training
 
-1. Obtain the INCLUDE dataset.
-2. Place dataset files according to the notebook instructions.
-3. Open:
+You can run the training pipeline using the modular Python scripts or the provided Jupyter notebook. 
+
+Follow these steps to reproduce the model training pipeline:
+
+### 1. Obtain the Dataset
+
+Download the required Indian Sign Language dataset from either of the following sources:
+
+#### AI4Bharat INCLUDE
+
+https://github.com/AI4Bharat/INCLUDE
+
+**OR**
+
+#### Indian Sign Language - MediaPipe Landmark EDA
+
+https://www.kaggle.com/datasets/swaptr/indian-sign-language-mediapipe-holistic-landmarks
+
+### 2. Prepare the Data
+
+Place the downloaded dataset files into the appropriate directory as instructed within the training notebook.
+
+### 3. Launch the Notebook
+
+Open the Phase 1 backbone notebook:
 
 ```text
 notebooks/SignVox_phase1_backbone.ipynb
 ```
 
-4. Execute the notebook sequentially.
+### 4. Execute the Pipeline
 
-The notebook contains:
+Run the notebook cells sequentially.
+
+The training notebook contains the complete pipeline, including:
 
 - Dataset preparation
 - Landmark reconstruction
@@ -267,8 +295,6 @@ The notebook contains:
 - Training
 - Evaluation
 - Visualization
-
----
 
 ## Future Work
 
