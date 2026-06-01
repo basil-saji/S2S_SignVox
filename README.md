@@ -79,6 +79,8 @@ This project uses the AI4Bharat INCLUDE dataset.
 Dataset Repository:
 
 https://github.com/AI4Bharat/INCLUDE
+MediaPipe Landmark Dataset:
+https://www.kaggle.com/datasets/swaptr/indian-sign-language-mediapipe-holistic-landmarks
 
 ---
 
